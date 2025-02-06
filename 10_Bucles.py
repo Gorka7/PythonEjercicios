@@ -129,7 +129,6 @@ else:
 print("La ejecución continúa")
 
 
-#Esto es una prueba
 """
 for element in my_dict:
     print(element)
