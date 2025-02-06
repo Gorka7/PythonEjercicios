@@ -1,0 +1,4 @@
+git status
+git add 10_Bucles.py
+git commit -m "Modificación en *archivo.py"
+Refrescar cambios en VS
