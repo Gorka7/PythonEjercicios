@@ -129,6 +129,7 @@ else:
 print("La ejecución continúa")
 
 
+"""
 for element in my_dict:
     print(element)
     if element == "Edad":
@@ -136,3 +137,4 @@ for element in my_dict:
     print("Se ejecuta")
 else:
     print("El bluce for para diccionario ha finalizado")
+"""
