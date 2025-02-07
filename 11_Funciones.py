@@ -4,8 +4,12 @@
 
 # Definición
 
+
+
 def my_function():
     print("Esto es una función")
+
+my_function()
 
 
 my_function()
