@@ -5,11 +5,12 @@
 # Definición
 
 
-
 def my_function():
     print("Esto es una función")
 
 my_function()
+
+
 
 
 my_function()
@@ -72,3 +73,21 @@ def print_upper_texts(*texts):
 
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
+
+
+
+"""def prueba ():
+    
+    my_condition = 0
+
+    while my_condition < 10:
+            print(my_condition)
+            my_condition += 2
+    else:  # Es opcional
+            print("Mi condición es mayor o igual que 10")
+
+    print("La ejecución continúa")
+
+
+prueba()
+"""
