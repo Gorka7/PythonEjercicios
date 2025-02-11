@@ -5,6 +5,8 @@
 # Definición
 
 
+
+
 def my_function():
     print("Esto es una función")
 
@@ -76,7 +78,8 @@ print_upper_texts("Hola")
 
 
 
-"""def prueba ():
+"""
+def prueba ():
     
     my_condition = 0
 
