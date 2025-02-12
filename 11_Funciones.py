@@ -3,8 +3,6 @@
 ###Functiones###
 
 #Definición
-# Definición
-#Prueba
 
 def my_function():
     print("Esto es una función")
@@ -28,7 +26,6 @@ sum_two_values(int("5"),int("7"))
 sum_two_values(1.4, 5.2)
 
 
-
 #Función con parámetros de entrada/argumentos y retorno
 
 def sum_two_values_with_return(first_value, second_value):
@@ -39,12 +36,11 @@ def sum_two_values_with_return(first_value, second_value):
 my_result = sum_two_values(1.4, 5.2)
 print(my_result)
 
-"""
+
 my_result = sum_two_values_with_return(10, 5)
 print(my_result)
 
-# Función con parámetros de entrada/argumentos por clave
-
+#Función con parámetros de entrada/argumentos por clave
 
 def print_name(name, surname):
     print(f"{name} {surname}")
@@ -52,8 +48,7 @@ def print_name(name, surname):
 
 print_name(surname="Moure", name="Brais")
 
-# Función con parámetros de entrada/argumentos por defecto
-
+#Función con parámetros de entrada/argumentos por defecto
 
 def print_name_with_default(name, surname, alias="Sin alias"):
     print(f"{name} {surname} {alias}")
@@ -62,8 +57,7 @@ def print_name_with_default(name, surname, alias="Sin alias"):
 print_name_with_default("Brais", "Moure")
 print_name_with_default("Brais", "Moure", "MoureDev")
 
-# Función con parámetros de entrada/argumentos arbitrarios
-
+#Función con parámetros de entrada/argumentos arbitrarios
 
 def print_upper_texts(*texts):
     print(type(texts))
@@ -74,7 +68,7 @@ def print_upper_texts(*texts):
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
 
-def prueba ():
+def funcion_con_while ():
     
     my_condition = 0
 
@@ -87,5 +81,4 @@ def prueba ():
     print("La ejecución continúa")
 
 
-prueba()
-"""
+funcion_con_while()
