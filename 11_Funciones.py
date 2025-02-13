@@ -25,6 +25,7 @@ sum_two_values("5","7")
 #Le paso un entero , pero lo convierto en entero "int"
 sum_two_values(int("5"),int("7"))
 
+
 sum_two_values(1.4, 5.2)
 
 
@@ -35,7 +36,7 @@ def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value
     return my_sum
 
-
+#None
 my_result = sum_two_values(1.4, 5.2)
 print(my_result)
 
