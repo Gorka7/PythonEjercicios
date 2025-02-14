@@ -4,17 +4,41 @@
 
 #Definición
 
+print("-------------------------------------------")
+print("-            Funciones                    -")
+print("-------------------------------------------")
+print("-      Declaración de Función             -")
+print("-------------------------------------------")
+print("-  def my_function():                     -")
+print("-      print('Esto es una función')       -")
+print("-  my_function()                          -")
+print("-------------------------------------------")
+
 def my_function():
     print("Esto es una función")
 
 my_function()
 
+print("-------------------------------------------------------")
+print("-  sum_two_values (first_value , second_value):       -")
+print("-      print(first_value + second_value)              -")
+print("-  my_function()                                      -")
+print("-------------------------------------------------------")
 #Función con parámetros de entrada/argumentos
 
 def sum_two_values (first_value , second_value):
     print(first_value + second_value)
 
-sum_two_values(5, 7)
+print("-------------------------------------------------------")
+print("-  sum_two_values (first_value , second_value):       -")
+print("-      print(first_value + second_value)              -")
+print("-  my_function()                                      -")
+print("-------------------------------------------------------")
+print("-------------------------------------------------------")
+print("- sum_two_values(5, 7)                                -")
+print("-------------------------------------------------------")
+sum_two_values(5, 7) 
+
 sum_two_values(54754, 71231)
 
 #Lo interpreta como cadena de caracteres y los concatena
@@ -64,7 +88,6 @@ def print_upper_texts(*texts):
     print(type(texts))
     for text in texts:
         print(text.upper())
-
 
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
