@@ -33,7 +33,7 @@ def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value
     return my_sum
 
-#None
+
 my_result = sum_two_values(1.4, 5.2)
 print(my_result)
 
@@ -83,3 +83,10 @@ def funcion_con_while ():
 
 
 funcion_con_while()
+
+
+def funcion_con_retorno(numero1,numero2):
+    suma = numero1+numero2
+    return suma
+
+resultado = funcion_con_retorno(5,7)
