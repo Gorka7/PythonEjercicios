@@ -4,10 +4,23 @@
 
 #Definición
 
+print("----------------------------------------------")
+print("-                Funciones                   -")
+print("----------------------------------------------")
+
+print("----------------------------------------------") 
+print("- def my_function():                         -")
+print("-     print('Esto es una función')           -")
+print("-                                            -")
+print("- my_function()                              -") 
+print("----------------------------------------------")
+
 def my_function():
     print("Esto es una función")
 
 my_function()
+
+
 
 #Función con parámetros de entrada/argumentos
 
