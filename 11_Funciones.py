@@ -69,6 +69,7 @@ def print_upper_texts(*texts):
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
 
+
 def funcion_con_while ():
     
     my_condition = 0
