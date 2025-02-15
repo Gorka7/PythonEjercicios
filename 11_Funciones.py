@@ -53,17 +53,18 @@ print("-------------------------------------------------------------------------
 #Le paso un entero , pero lo convierto en entero "int"
 sum_two_values(int("5"),int("7"))
 
-
+print("----------------------------------------------------------------")
+print("-       sum_two_values(1.4, 5.2)                               -")
+print("----------------------------------------------------------------")
 sum_two_values(1.4, 5.2)
-
 
 #Función con parámetros de entrada/argumentos y retorno
 
 def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value
-    return my_sum
+    return my_sum #Esto devuelve 6.6
 
-
+#Esto devuelve None
 my_result = sum_two_values(1.4, 5.2)
 print(my_result)
 
