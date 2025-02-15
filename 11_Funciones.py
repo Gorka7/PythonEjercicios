@@ -20,19 +20,36 @@ def my_function():
 
 my_function()
 
-
-
 #Función con parámetros de entrada/argumentos
+
+print("----------------------------------------------------------------") 
+print("-       def sum_two_values (first_value , second_value):       -")
+print("-           print(first_value + second_value)                  -")
+print("-                                                              -")
+print("----------------------------------------------------------------")
 
 def sum_two_values (first_value , second_value):
     print(first_value + second_value)
 
+print("----------------------------------------------------------------")
+print("-       sum_two_values(5, 7)  |                                -")
+print("----------------------------------------------------------------")
 sum_two_values(5, 7)
+
+print("----------------------------------------------------------------")
+print("-       sum_two_values(54754, 71231)                           -")
+print("----------------------------------------------------------------")
 sum_two_values(54754, 71231)
 
+print("---------------------------------------------------------------------------------------------------")
+print("-       sum_two_values('5','7') | #Lo interpreta como cadena de caracteres y los concatena        -")
+print("---------------------------------------------------------------------------------------------------")
 #Lo interpreta como cadena de caracteres y los concatena
 sum_two_values("5","7")
 
+print("------------------------------------------------------------------------------------------------------------")
+print("-       sum_two_values(int('5'),int('7'))  | #Le paso un entero , pero lo convierto en entero 'int'        -")
+print("------------------------------------------------------------------------------------------------------------")
 #Le paso un entero , pero lo convierto en entero "int"
 sum_two_values(int("5"),int("7"))
 
@@ -82,7 +99,7 @@ def print_upper_texts(*texts):
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
 
-
+"""
 def funcion_con_while ():
     
     my_condition = 0
@@ -104,3 +121,4 @@ def funcion_con_retorno(numero1,numero2):
     return suma
 
 resultado = funcion_con_retorno(5,7)
+"""
