@@ -92,29 +92,56 @@ print(my_result)
 
 #Función con parámetros de entrada/argumentos por clave
 
+def print_name(name, surname):
+    print(f"{name} {surname}")
+
 print("----------------------------------------------------------------")
 print("- def print_name(name, surname):                               -")
 print("-     print(f'{name} {surname}')                               -")
 print("-                                                              -")
-print("- print_name(surname='Moure', name='Brais')                    -")
+print("- print_name('Moure','Brais')                                  -")
 print("----------------------------------------------------------------")
 
-def print_name(name, surname):
-    print(f"{name} {surname}")
+print_name("Moure","Brais")
 
+print("----------------------------------------------------------------")
+print("-         Si lo queremos ordenado , Hay que indicarselo        -")
+print("----------------------------------------------------------------")
+print("-         print_name(surname='Moure',name='Brais')             -")
+print("----------------------------------------------------------------")
+print_name(surname='Moure',name='Brais')
+print("----------------------------------------------------------------")   
 
-print_name(surname="Moure", name="Brais")
 
 #Función con parámetros de entrada/argumentos por defecto
 
-def print_name_with_default(name, surname, alias="Sin alias"):
-    print(f"{name} {surname} {alias}")
+print("-------------------------------------------------------------------------------------------------------------------------------------------------")
+print("-       Función con parámetros de entrada/argumentos por defecto                                                                                -")
+print("-------------------------------------------------------------------------------------------------------------------------------------------------")
+print("-     def print_name_with_default(name, surname,alias='Sin alias'):                                                                             -")
+print("-         print(f'{name} {surname} {alias}')                                                                                                    -")
+print("-   En el momento en el que NO metamos un 3 parametro | print_name_with_default('Brais', 'Moure') | Establece por defecto | alias 'Sin alias'   -")
+print("-------------------------------------------------------------------------------------------------------------------------------------------------")
 
+#Establecemos en alias "Sin alias" , ya que a la funcion le estamos pasando 3 valores
+#
+def print_name_with_default(name, surname,alias="Sin alias"):
+    print(f"{name} {surname} {alias}")
 
 print_name_with_default("Brais", "Moure")
 print_name_with_default("Brais", "Moure", "MoureDev")
 
 #Función con parámetros de entrada/argumentos arbitrarios
+
+print("----------------------------------------------------------------")  
+print("-   Función con parámetros de entrada/argumentos arbitrarios   -")
+print("----------------------------------------------------------------")
+print("-   def print_upper_texts(*texts):                             -")
+print("-       print(type(texts))                                     -")
+print("-       for text in texts:                                     -")
+print("-           print(text.upper())                                -")
+print("-                                                              -")
+print("----------------------------------------------------------------")
 
 def print_upper_texts(*texts):
     print(type(texts))
