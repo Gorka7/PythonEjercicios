@@ -18,7 +18,6 @@ print("----------------------------------------------")
 def my_function():
     print("Esto es una función")
 
-my_function()
 
 #Función con parámetros de entrada/argumentos
 
@@ -58,7 +57,15 @@ print("-       sum_two_values(1.4, 5.2)                               -")
 print("----------------------------------------------------------------")
 sum_two_values(1.4, 5.2)
 
-#Función con parámetros de entrada/argumentos y retorno
+
+
+print("--------------------------------------------------------------------------")
+print("-        def sum_two_values_with_return(first_value, second_value):      -")
+print("-            my_sum = first_value + second_value                         -")
+print("-            return my_sum                                               -")
+print("--------------------------------------------------------------------------")
+
+##Función con parámetros de entrada/argumentos y retorno
 
 def sum_two_values_with_return(first_value, second_value):
     my_sum = first_value + second_value
@@ -66,13 +73,31 @@ def sum_two_values_with_return(first_value, second_value):
 
 #Esto devuelve None
 my_result = sum_two_values(1.4, 5.2)
+
+print("--------------------------------------------------------------------------------------------------------------------------")   
+print("-     my_result = sum_two_values(1.4, 5.2) | Nos Devuelve 'None' porque la Funcion 'sum_two_values' No tiene retorno     -")
+print("-     print(my_result)                                                                                                   -")
+print("--------------------------------------------------------------------------------------------------------------------------")
+
 print(my_result)
 
+print("----------------------------------------------------------------")
+print("- my_result = sum_two_values_with_return(10, 5)                -")
+print("- print(my_result)                                             -")
+print("----------------------------------------------------------------") 
 
 my_result = sum_two_values_with_return(10, 5)
 print(my_result)
 
+
 #Función con parámetros de entrada/argumentos por clave
+
+print("----------------------------------------------------------------")
+print("- def print_name(name, surname):                               -")
+print("-     print(f'{name} {surname}')                               -")
+print("-                                                              -")
+print("- print_name(surname='Moure', name='Brais')                    -")
+print("----------------------------------------------------------------")
 
 def print_name(name, surname):
     print(f"{name} {surname}")
