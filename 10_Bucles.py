@@ -1,3 +1,4 @@
+    
 #Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=23822
 
 ###Loops###
@@ -16,7 +17,6 @@ print("-        print('Mi condición es mayor o igual que 10')   -")
 print("-                                                        -")
 print("-    print('La ejecución continúa')                      -")
 print("----------------------------------------------------------")
-
 
 my_condition = 0
 
