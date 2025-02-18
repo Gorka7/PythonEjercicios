@@ -10,6 +10,3 @@ mi_lista_numeros = []
 
 for numeros in numero:
     media = sum(mi_lista_numeros) / len(mi_lista_numeros)
-    print("La media de los números es: ", media)
-
-

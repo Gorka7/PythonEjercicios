@@ -20,7 +20,6 @@ def my_function():
     
 my_function()  
 
-my_function()
 
 
 print("-------------------------------------------------------")
@@ -169,5 +168,14 @@ def print_upper_texts(*texts):
 
 print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
+
+def suma_dos_valores(num1, num2):
+    """my_sum = num1 + num2
+    return my_sum #Esto devuelve 6.6
+    """
+    print(num1 + num2)
+    
+suma = suma_dos_valores(1, 2)
+print(suma)
 
 
