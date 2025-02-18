@@ -34,3 +34,4 @@ def acortar_nombres_en_directorio(ruta, longitud_maxima):
 directorio = "ruta/a/tu/directorio"  # Cambia esto por el camino de tu carpeta
 longitud_maxima = 10  # Cambia esto según la longitud máxima deseada
 acortar_nombres_en_directorio(directorio, longitud_maxima)
+

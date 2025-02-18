@@ -1,12 +1,12 @@
-#Ejercicio
-#Escribir una función que reciba una muestra de números en una lista 
-#y devuelva su media.
 
+def suma (numero1,numero2):
+    print(numero1+numero2)
 
-numero = input("Introduce un número: ")
-numero=int(numero)
-mi_lista_numeros = []
+suma(5,7)
 
+def suma_con_retorno(numero1,numero2):
+    suma=numero1+numero2
+    return suma
 
-for numeros in numero:
-    media = sum(mi_lista_numeros) / len(mi_lista_numeros)
+suma_final = suma(5,7)
+print(suma_final)
