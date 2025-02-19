@@ -158,11 +158,3 @@ print_upper_texts("Hola", "Python", "MoureDev")
 print_upper_texts("Hola")
 
 
-def sum_two_values_with_return(first_value, second_value):
-    my_sum = first_value + second_value
-    return my_sum #Esto devuelve 6.6
-
-#Esto devuelve None
-print(".")
-my_result = sum_two_values(1.4, 5.2)
-print(".")
