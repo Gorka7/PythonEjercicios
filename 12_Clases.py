@@ -1,15 +1,18 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=29327
+#Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=29327
 
 ###Classes###
 
 #Definición
 
 class MyEmptyPerson:
-    pass  # Para poder dejar la clase vacía
+    pass  
+    #Para poder dejar la clase vacía
+    print("Hola")
 
 
-print(MyEmptyPerson)
-print(MyEmptyPerson())
+print(MyEmptyPerson) # o print(MyEmptyPerson()) 
+
+
 
 #Clase con constructor, funciones y propiedades privadas y públicas
 
