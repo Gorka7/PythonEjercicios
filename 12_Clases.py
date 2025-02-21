@@ -18,6 +18,7 @@ print(MyEmptyPerson) # o print(MyEmptyPerson())
 
 
 class Person:
+
     def __init__(self, name, surname, alias="Sin alias"):
         self.full_name = f"{name} {surname} ({alias})"  #Propiedad pública
         self.__name = name  #Propiedad privada
@@ -41,7 +42,7 @@ my_other_person.walk()
 my_other_person.full_name = "Héctor de León (El loco de los perros)"
 print(my_other_person.full_name)
 
-my_other_person.full_name = 666
+my_other_person.full_name = 14
 print(my_other_person.full_name)
 
 #ClaseFormula1
@@ -54,6 +55,7 @@ class Formula1:
 mi_coche = Formula1("Blandos","Baja Carga")
 print(mi_coche.neumaticos)
 print(mi_coche.aerodinamica)
-aston_martin = print("El coche de Fernando Alonso lleva nematicos"f"{mi_coche.neumaticos}")
+#aston_martin = print("El coche de Fernando Alonso lleva nematicos "f"{mi_coche.neumaticos}")
+#print(aston_martin)
 
-    
+   
