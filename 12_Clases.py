@@ -4,6 +4,7 @@
 
 # Definición
 
+"""
 class MyEmptyPerson:
     #pass  # Para poder dejar la clase vacía
     def __init__(self):
@@ -12,6 +13,7 @@ class MyEmptyPerson:
 
 print(MyEmptyPerson)
 print(MyEmptyPerson())
+"""
 
 #Clase con constructor, funciones y propiedades privadas y públicas
 
@@ -30,6 +32,7 @@ class Person:
 
 my_person = Person("Brais", "Moure")
 print(my_person.full_name)
+print(".")
 print(my_person.get_name())
 my_person.walk()
 
