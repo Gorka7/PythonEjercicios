@@ -21,10 +21,6 @@ print("-------------------------------------------------------------------------
 class Person:                         #Alias lo ponemos por defecto en caso de que no se le pase nada
     def __init__(self, name, surname, alias="Por defecto"):
         self.full_name = f"{name} {surname} ({alias})"  # Propiedad pública
-        #self.__name = name  # Propiedad privada
-
-    #def get_name(self):
-        #return self.__name
 
     #Funcion en una Clase
     def walk(self):
