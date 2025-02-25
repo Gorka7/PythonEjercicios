@@ -47,9 +47,9 @@ print("-    print(numberOne + numberTwo)                                       -
 print("-    print('No se ha producido un error')                               -")
 print("-except:                                                                -")
 print("-    print('Se ha producido un error')                                  -")
-print("-else:                                                                  -")
+print("-else: #Opcional                                                        -")
 print("-    print('La ejecución continúa correctamente')                       -")
-print("-finally:                                                               -")
+print("-finally: #opcional                                                     -")
 print("-    print('La ejecución continúa')                                     -")
 print("-------------------------------------------------------------------------")
 print("-------------------------------------------------------------------------")
@@ -90,6 +90,19 @@ except TypeError:
     print("Se ha producido un TypeError")
 
 #Captura de la información de la excepción
+
+print("--------------------------------------------------")
+print("-    Captura de la información de la excepción   -")
+print("--------------------------------------------------")
+print("--------------------------------------------------")
+print("-try:                                            -")
+print("-    print(numberOne + numberTwo)                -")
+print("-    print('No se ha producido un error')        -")
+print("-except ValueError as error:                     -")
+print("-    print(error)                                -")
+print("-except Exception as my_random_error_name:       -")
+print("-    print(my_random_error_name)                 -")
+print("--------------------------------------------------")
 
 try:
     print(numberOne + numberTwo)
