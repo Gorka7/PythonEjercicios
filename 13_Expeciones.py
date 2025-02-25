@@ -8,6 +8,27 @@ numberTwo = "1"
 
 #Excepción base: try except
 
+print("--------------------------------------------------")
+print("-        Excepciones | Control de Errores        -")
+print("--------------------------------------------------")
+print("--------------------------------------------------")
+print("-     Variables :      -")
+print("------------------------")
+print("-   numberOne =  5     -")
+print("-   numberTwo =  1     -")
+print("-   numberTwo = '1'    -")
+print("------------------------")
+print("-------------------------------------------")
+print("-try:                                     -")
+print("-    print(numberOne + numberTwo)         -")
+print("-    print('No se ha producido un error') -")
+print("-except:                                  -")
+print("-    print('Se ha producido un error')    -")
+print("-------------------------------------------")
+print("--------------------------------------------------------")
+print("-   Forzamos el Error y el programa va por el Except   -")
+print("--------------------------------------------------------")
+
 try:
     print(numberOne + numberTwo)
     print("No se ha producido un error")
@@ -16,6 +37,7 @@ except:
     print("Se ha producido un error")
 
 #Flujo completo de una excepción: try except else finally
+
 
 try:
     print(numberOne + numberTwo)
@@ -47,4 +69,4 @@ try:
 except ValueError as error:
     print(error)
 except Exception as my_random_error_name:
-    print(my_random_error_name)
+   print(my_random_error_name)
