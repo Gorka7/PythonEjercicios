@@ -38,6 +38,21 @@ except:
 
 #Flujo completo de una excepción: try except else finally
 
+print("-------------------------------------------------------------------------")
+print("-    Flujo completo de una excepcion : try | except | else | finally    -")
+print("-------------------------------------------------------------------------")
+print("-------------------------------------------------------------------------")
+print("-try:                                                                   -")
+print("-    print(numberOne + numberTwo)                                       -")  
+print("-    print('No se ha producido un error')                               -")
+print("-except:                                                                -")
+print("-    print('Se ha producido un error')                                  -")
+print("-else:                                                                  -")
+print("-    print('La ejecución continúa correctamente')                       -")
+print("-finally:                                                               -")
+print("-    print('La ejecución continúa')                                     -")
+print("-------------------------------------------------------------------------")
+print("-------------------------------------------------------------------------")
 
 try:
     print(numberOne + numberTwo)
@@ -52,6 +67,19 @@ finally:  # Opcional
     print("La ejecución continúa")
 
 #Excepciones por tipo
+
+print("--------------------------------------------------")
+print("-            Excepciones por tipo                -")
+print("--------------------------------------------------")
+print("--------------------------------------------------")
+print("-try:                                            -")
+print("-    print(numberOne + numberTwo)                -")
+print("-    print('No se ha producido un error')        -")
+print("-except ValueError:                              -")
+print("-    print('Se ha producido un ValueError')      -")
+print("-except TypeError:                               -")
+print("-    print('Se ha producido un TypeError')       -")
+print("--------------------------------------------------")
 
 try:
     print(numberOne + numberTwo)
@@ -68,5 +96,5 @@ try:
     print("No se ha producido un error")
 except ValueError as error:
     print(error)
-except Exception as my_random_error_name:
-   print(my_random_error_name)
+#except Exception as my_random_error_name:
+#   print(my_random_error_name)
