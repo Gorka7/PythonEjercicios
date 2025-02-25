@@ -96,5 +96,8 @@ try:
     print("No se ha producido un error")
 except ValueError as error:
     print(error)
-#except Exception as my_random_error_name:
-#   print(my_random_error_name)
+except Exception as my_random_error_name:
+  print(my_random_error_name)
+
+class prueba:
+  pass
