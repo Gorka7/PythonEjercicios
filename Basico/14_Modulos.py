@@ -14,7 +14,7 @@ print("--------------------------------------------------------------------")
 print("-   import my_module                                               -")
 print("--------------------------------------------------------------------")
 
-import my_module
+import Basico.my_module as my_module
 
 print("--------------------------------------------------------------------------------")
 print("-   Luego podemos llamar a las diferentes partes del codigo que hay dentro :   -")
@@ -36,7 +36,7 @@ print("-------------------------------------------------------------------------
 print("-   sumValue(5, 3, 1)                                                     -")
 print("---------------------------------------------------------------------------")   
 
-from my_module import sumValue
+from Basico.my_module import sumValue
 #from my_module import sumValue, printValue
 
 sumValue(5, 3, 1)
