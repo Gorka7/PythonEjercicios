@@ -2,14 +2,6 @@
 
 #Modulos
 
-#from math import pi as PI_VALUE
-#import math
-
-
-#print (math.pi)
-#print (math.pow(2, 8))
-#print(PI_VALUE)
-
 print("--------------------------------------------------------------------")
 print("-                            Módulos                               -")
 print("--------------------------------------------------------------------")
@@ -49,3 +41,31 @@ from my_module import sumValue
 
 sumValue(5, 3, 1)
 #printValue("Hola python")
+
+print("-----------------------------------------------------------------------")
+print("-                   Modulos del Sistema                               -")
+print("-----------------------------------------------------------------------")
+print("- import math                                                         -")
+print("-----------------------------------------------------------------------")
+print("- print (math.pi)   #Saca el numero PI en pantalla                    -")
+print("- print (math.pow(2, 8)) # 2 elevado a 8                              -")
+print("-----------------------------------------------------------------------")
+
+import math
+
+print (math.pi)
+#elevado = math.pow(2, 8)
+#print (int(elevado))
+print (math.pow(2, 8))
+
+print("---------------------------------------")
+print("-     Añadirle un alias al Modulo     -")
+print("---------------------------------------")
+print("-   from math import pi as PI_VALUE   -")
+print("-   print(PI_VALUE)                    -")
+print("---------------------------------------")
+
+
+from math import pi as PI_VALUE
+
+print(PI_VALUE)
