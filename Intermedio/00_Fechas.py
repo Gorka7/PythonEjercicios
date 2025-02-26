@@ -28,7 +28,7 @@ year_2023 = datetime(2023, 1, 1)
 
 print_date(year_2023)
 
-# Time
+#Time
 
 
 current_time = time(21, 6, 0)
@@ -37,7 +37,7 @@ print(current_time.hour)
 print(current_time.minute)
 print(current_time.second)
 
-# Date
+#Date
 
 
 current_date = date.today()
@@ -57,7 +57,7 @@ current_date = date(current_date.year,
 
 print(current_date.month)
 
-# Operaciones con fechas
+#Operaciones con fechas
 
 diff = year_2023 - now
 print(diff)
@@ -65,7 +65,7 @@ print(diff)
 diff = year_2023.date() - current_date
 print(diff)
 
-# Timedelta
+#Timedelta
 
 
 start_timedelta = timedelta(200, 100, 100, weeks=10)
