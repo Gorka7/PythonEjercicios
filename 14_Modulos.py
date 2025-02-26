@@ -14,7 +14,7 @@ print("--------------------------------------------------------------------")
 print("-   import my_module                                               -")
 print("--------------------------------------------------------------------")
 
-import Basico.my_module as my_module
+import my_module
 
 print("--------------------------------------------------------------------------------")
 print("-   Luego podemos llamar a las diferentes partes del codigo que hay dentro :   -")
@@ -26,17 +26,17 @@ print("--------------------------------------------")
 my_module.sumValue(5, 3, 1)
 my_module.printValue("Hola Python!")
 
-print("---------------------------------------------------------------------------")
-print("-   Otra forma de hacerlo es importar solo unicamente parte del modulo    -")
-print("---------------------------------------------------------------------------")
-print("-   importamos de la siguiente forma :                                    -")
-print("---------------------------------------------------------------------------")
-print("-   'from my_module import sumValue'                                      -")
-print("---------------------------------------------------------------------------")
-print("-   sumValue(5, 3, 1)                                                     -")
-print("---------------------------------------------------------------------------")   
+print("-------------------------------------------------------------------------------------")
+print("-   Otra forma de hacerlo es importar unicamente de un modulo ciertas operaciones   -")
+print("-------------------------------------------------------------------------------------")
+print("-   importamos de la siguiente forma :                                              -")
+print("-------------------------------------------------------------------------------------")
+print("-   'from my_module import sumValue'                                                -")
+print("-------------------------------------------------------------------------------------")
+print("-   sumValue(5, 3, 1)                                                               -")
+print("-------------------------------------------------------------------------------------")   
 
-from Basico.my_module import sumValue
+from my_module import sumValue
 #from my_module import sumValue, printValue
 
 sumValue(5, 3, 1)
