@@ -4,26 +4,26 @@
 
 #Date time
 
-from datetime import timedelta
-from datetime import date
-from datetime import time
+#from datetime import timedelta
+#from datetime import date
+#from datetime import time
 from datetime import datetime
 
-now = datetime.now()
+ahora = datetime.now()
 
 
-def print_date(date):
-    print(date.year)
-    print(date.month)
-    print(date.day)
-    print(date.hour)
-    print(date.minute)
-    print(date.second)
-    print(date.timestamp())
+print(ahora.year)
+print(ahora.month)
+print(ahora.day)
+print(ahora.hour)
+print(ahora.minute)
+print(ahora.second)
+
+timestamp = ahora.timestamp()
+print(timestamp)
 
 
-print_date(now)
-
+"""
 year_2023 = datetime(2023, 1, 1)
 
 print_date(year_2023)
@@ -73,3 +73,4 @@ end_timedelta = timedelta(300, 100, 100, weeks=13)
 
 print(end_timedelta - start_timedelta)
 print(end_timedelta + start_timedelta)
+"""
