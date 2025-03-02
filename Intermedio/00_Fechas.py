@@ -52,7 +52,7 @@ print(current_date.year)
 print(current_date.month)
 print(current_date.day)
 
-current_date = date(current_date.year,
+current_date = date(current_date.year,03    
                     current_date.month + 1, current_date.day)
 
 print(current_date.month)
