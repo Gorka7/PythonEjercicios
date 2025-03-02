@@ -60,7 +60,7 @@ print(current_date.month)
 #Operaciones con fechas
 
 diff = year_2023 - now
-print(diff)
+print(diff)git
 
 diff = year_2023.date() - current_date
 print(diff)
